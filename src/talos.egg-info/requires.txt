@@ -1,0 +1,9 @@
+click>=8.1
+PyYAML>=6.0
+requests>=2.31
+
+[dev]
+pytest
+ruff
+black
+pre-commit

@@ -1,0 +1,12 @@
+llm_server:
+  ip: 0.0.0.0
+  port: 11434
+
+target_directory: /Users/vadimpavliukevich/Code/web_scene
+
+utilities:
+  - terminal
+  - code_writer
+
+project_description: |
+  Build a simple Flask web app that displays “Hello World”.

@@ -1,0 +1,17 @@
+[project]
+name            = "talos"
+version         = "0.1.0"
+description     = "Open LLM coding orchestration platform"
+readme          = "README.md"
+requires-python = ">=3.10"
+dependencies    = [
+  "click>=8.1",
+  "PyYAML>=6.0",
+  "requests>=2.31"
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "black", "pre-commit"]
+
+[project.scripts]            # ⇢  $ talos --config configs/default.yaml
+talos = "talos.cli:main"
